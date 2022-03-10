@@ -1,0 +1,123 @@
+
+.quizbody{
+    padding: 20px;
+    font-family: Helvetica;
+    background: #efeeff;
+  
+}
+.quize{
+    max-width: 700px;
+    width: 100%;
+    margin: 20vh auto 10px;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.markSchema{
+    max-width: 700px;
+    width: 100%;
+    margin: 0vh auto;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.markSchema  em{
+    color: rgb(238, 95, 95);
+}
+
+.question2{
+    filter: blur(9px);
+}
+
+#showBtn{
+    text-align: center;
+    border-radius: 16px;
+    background-color: #0b03fc;
+    padding: 14px;
+    width: 35% ;
+    margin-left: 30%;
+    color: #d2d2e2;
+    margin-bottom: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.score-color--white{
+    background: #fff;
+}
+.quize h2{
+    color: #0b03fc;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+h3 {
+    color: #0b03fc;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+label{
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-button{
+    margin-top: 50px;
+    text-align: end;
+}
+#next{
+    padding: 14px 30px;
+    background-color: #0b03fc;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.btn:hover,
+.submitBtn:hover {
+    box-shadow: 0 14px 18px rgb(11, 3, 252, .28);
+}
+.question-bar.hidden{
+    display: none;
+}
+.scoreCount {
+    color: #000;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    vertical-align: middle;
+    line-height: 3.3;
+    font-size: 30px;
+    margin: 0 auto;
+    background: #FFBA00;
+    font-weight: bold;
+}
+div#showscore {
+    text-align: center;
+}
+.scoreBoard {
+    background: #fffbf1;
+    border-radius: 10px;
+    padding: 50px 20px;
+    max-width: 300px;
+    margin: 20px auto 50px;
+    border: 1px solid #ffe6a1;
+}
+.wrongAwnswer {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+svg {
+    fill: #fff;
+    height: 9px;
+    margin-right: 6px;
+}

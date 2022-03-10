@@ -1,0 +1,43 @@
+.dialogueBox{
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #e9e7e7;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px;
+    display: none;
+}
+main{
+    /* filter: blur(9px); */
+}
+.dialogueBox h2{
+    padding: 10px;
+}
+.dialogueBox input {
+    /* width: 100%; */
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #e9e7e7;
+    font-size: 18px;
+}
+.form-control{
+    padding: 10px;
+}
+.form-control-btn{
+    text-align: center;
+}
+header{
+    z-index: 3;
+}
+
+/* BUTTON FIREBASE */
+.mdl-button--raised.mdl-button--colored {
+    background: cyan;
+    }

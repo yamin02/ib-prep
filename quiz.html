@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IB Prep</title>
+
+<!--EXTERNAL CSS-->
+<link rel="stylesheet" href="css/quizpage.css">
+<link rel="stylesheet" href="css/indexPage_style2.css">
+<link rel="stylesheet" href="css/sidebar.css">
+<link rel="stylesheet" href="css/mathstyle.css">
+<link rel="stylesheet" href="css/dialogueBox.css">
+
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet"> 
+
+<!-- Math plugin  -->
+<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML-full" ></script>
+
+<!--PLUGIN-->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+
+<!--FONT AWESOME for icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Dialogue Box -->
+    <div class="dialogueBox">
+      <p id="closeDialogue" style="float:right"><i class="fa fa-times-circle"></i></p>
+      <h3>Sign In Now</h3> 
+      <div id="firebaseui-auth-container"></div>
+      <script src="./js/sigin.js"></script>
+  </div>
+  
+  <!-- Top Nav Bar -->
+  <header>
+  <div class="header__1">
+      <div class="header__1-inner">
+          <div class="header-logo">
+            <a href="index.html"><img src="./resource/icon.png" alt="icon"></a>
+          </div>
+          <nav>
+              <ul class="left-ul">
+                  <li><a href="#!">Maths</a></li>
+                  <li ><a href="./index.html">Physics</a></li>
+                  <li><a href="#!">Chemistry</a></li>
+              </ul>
+              <ul class="right-ul">
+                  <li><a href="#!"><span class="fa fa-laptop"></span> Book a class</a></li>
+                  <li><a href="#!" class="btn-light">Contact Us</a></li>
+                  <li><a class="btn-dark">Sign In</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
+  <div class="header__2">
+      <div class="header__2-inner">
+          <p>IB | PREPARATIONS</p>
+          <a href="#!" class="btn-light">Join in the app</a>
+      </div>
+  </div>
+</header>
+
+<script src="./js/dialogueBox.js"> </script>
+
+
+<!-- SIDE NAV BAR -->
+<div class="container">
+  <div class="sidebar">
+    <div class="sidebar-header"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+        height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path fill="none" d="M0 0h24v24H0V0z"></path>
+        <path d="M18 4H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H6V6h12v12z">
+        </path>
+      </svg><span>Questions</span></div>
+    <div>
+      <div class="sidebar-body"><a class="active" href="#">
+          <div><span>Tasks</span></div><span class="count">4</span>
+        </a><a href="#">
+          <div><span>Notifications</span></div><span class="count">4</span>
+        </a><a href="#">
+          <div><span>Analytics</span></div><span class="count">4</span>
+        </a><a href="#">
+          <div><span>Team</span></div><span class="count">4</span>
+        </a></div>
+    </div>
+  </div>
+</div>
+<script>
+  if(window.innerWidth < '1200'){$('.container').hide();}
+  $( window ).resize(function() {
+    if(window.innerWidth < '1200'){
+    $('.container').hide();
+    }else {
+      $('.container').show();
+    }
+  })
+
+</script>
+
+<!-- QUiz body -->
+<section class="quizbody">
+    <div class="quize">
+        <div class="question-bar">
+          <h2 class="qestion">Question no. 1 </h2>
+
+          <div class="question">
+        
+            <div class='specification'>
+              <p class="p1">The following Venn diagram shows the events \(A\) and \(B\)<span class="s1">, where \({\text{P}}(A) = 0.4,{\text{ P}}(A \cup B) = 0.8\) and \({\text{P}}(A \cap B) = 0.1\)</span>. The values \(p\) and \(q\) are probabilities.</p>
+              <p class="p1" style="text-align: center;"><img src="./ib-questionbank-attachments.s3.amazonaws.com/uploads/tinymce_asset/asset/3175/Schermafbeelding_2017-01-31_om_17.49.37.png" alt="M16/5/MATME/SP1/ENG/TZ1/02" /></p>
+              </div>
+              
+              <div class='question' style='padding-left: 20px; padding-right: 20px;'>
+              <p class="p1">(i) <span class="Apple-converted-space">&nbsp; &nbsp; </span>Write down the value of \(q\).</p>
+              <p class="p1">(ii) <span class="Apple-converted-space">&nbsp; &nbsp; </span>Find the value of \(p\).</p>
+              <div class='marks'>[3]</div>
+              <div class='question_part_label'>a.</div>
+              </div>
+              <div class='question' style='padding-left: 20px; padding-right: 20px;'>
+              <p class="p1">Find \({\text{P}}(B)\).</p>
+              <div class='marks'>[3]</div>
+              <div class='question_part_label'>b.</div>
+            </div>
+          
+          
+          </div>
+
+          <div class="footer-button">
+            <button id="next" class="submitBtn">Next</button>
+          </div>
+        </div>
+        <div id="showscore" class="scoreArea"></div>
+    </div>
+</section>
+
+<!-- Mark Schema Body -->
+<section class="quizbody">
+  <div class="markSchema">
+      <div class="question-bar">
+        <h2 id="showBtn">Show Mark schema </h2>
+
+        <div class="question2">
+      
+          <div class='specification'>
+            <p class="p1">The following Venn diagram shows the events \(A\) and \(B\)<span class="s1">, where \({\text{P}}(A) = 0.4,{\text{ P}}(A \cup B) = 0.8\) and \({\text{P}}(A \cap B) = 0.1\)</span>. The values \(p\) and \(q\) are probabilities.</p>
+            <p class="p1" style="text-align: center;"><img src="./ib-questionbank-attachments.s3.amazonaws.com/uploads/tinymce_asset/asset/3175/Schermafbeelding_2017-01-31_om_17.49.37.png" alt="M16/5/MATME/SP1/ENG/TZ1/02" /></p>
+            </div>
+            
+            <div class='question' style='padding-left: 20px; padding-right: 20px;'>
+            <p class="p1">(i) <span class="Apple-converted-space">&nbsp; &nbsp; </span>Write down the value of \(q\).</p>
+            <p class="p1">(ii) <span class="Apple-converted-space">&nbsp; &nbsp; </span>Find the value of \(p\).</p>
+            <div class='marks'>[3]</div>
+            <div class='question_part_label'>a.</div>
+            </div>
+            <div class='question' style='padding-left: 20px; padding-right: 20px;'>
+            <p class="p1">Find \({\text{P}}(B)\).</p>
+            <div class='marks'>[3]</div>
+            <div class='question_part_label'>b.</div>
+          </div>
+         </div>
+        <!-- <div class="footer-button">
+          <button id="next" class="submitBtn">Next</button>
+        </div> -->
+      </div>
+      <div id="showscore" class="scoreArea"></div>
+  </div>
+</section>
+
+
+<div class="row">
+
+</div>
+</div>
+
+<!-- FOOTer -->
+<footer>
+  <div class="footer-inner">
+      <div class="footer__1">
+      <div class="footer__2" style="text-align: center;">
+          <div class="footer__2-social-links">
+              <ul>
+                  <li style="text-align: center;"><a href="#!" ><span class="fa fa-spotify"></span></a></li>
+                  <li><a href="#!"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#!"><span class="fa fa-pinterest-p"></span></a></li>
+                  <li><a href="#!"><span class="fa fa-instagram"></span></a></li>
+                  <li><a href="#!"><span class="fa fa-youtube-play"></span></a></li>
+                  <li><a href="#!"><span class="fa fa-twitter"></span></a></li>
+              </ul>
+          </div>
+          <div class="footer__2-page-links">
+              <ul>
+                  <li><a href="#!">Maths</a></li>
+                  <li><a href="#!">Physics</a></li>
+                  <li><a href="#!">Chemistry</a></li>
+                  <li><a href="#!">Contact Us</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+  <!-- <script src="./bundle.js"> </script> -->
+  <script src="./js/quizPage.js"> </script>
+
+</body>
+</html>

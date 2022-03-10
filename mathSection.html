@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IB PREP</title>
+
+<!--EXTERNAL CSS-->
+<link rel="stylesheet" href="css/mathsPage.css">
+<link rel="stylesheet" href="css/quizpage.css">
+<link rel="stylesheet" href="css/indexPage_style2.css">
+<link rel="stylesheet" href="css/sidebar.css">
+<link rel="stylesheet" href="css/mathstyle.css">
+<link rel="stylesheet" href="css/dialogueBox.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML-full" async></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet"> 
+
+<!--PLUGIN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  
+  
+  <div id="MathJax_Message" style="display: none;"></div>
+
+  <!-- Dialogue Box -->
+  <div class="dialogueBox">
+    <p id="closeDialogue" style="float:right"><i class="fa fa-times-circle"></i></p>
+    <h3>Sign In Now</h3> 
+    <div id="firebaseui-auth-container"></div>
+    <script src="./js/sigin.js"></script>
+</div>
+
+<!-- Top Nav Bar -->
+<header>
+<div class="header__1">
+    <div class="header__1-inner">
+        <div class="header-logo">
+            <a href="index.html"><img src="./resource/icon.png" alt="icon"></a>
+        </div>
+        <nav>
+            <ul class="left-ul">
+                <li><a href="#!">Maths</a></li>
+                <li ><a href="./index.html">Physics</a></li>
+                <li><a href="#!">Chemistry</a></li>
+            </ul>
+            <ul class="right-ul">
+                <li><a href="#!"><span class="fa fa-laptop"></span> Book a class</a></li>
+                <li><a href="#!" class="btn-light">Contact Us</a></li>
+                <li><a class="btn-dark">Sign In</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="header__2">
+    <div class="header__2-inner">
+        <p>IB | PREPARATIONS</p>
+        <a href="#!" class="btn-light">Join in the app</a>
+    </div>
+</div>
+</header>
+
+<script src="./js/dialogueBox.js"> </script>
+
+  
+
+  <!--SECTION2-->
+  <section class="section2" style="text-align: center;">
+    <div class="title_header">
+        <br>
+    <h1 class="title" onclick="window.open('./quiz.html')">IB Maths HL</h1>
+    <br>
+    <h5 class="sub-title">Deplts high reliability, security and enterprise feature set. </h5>
+    </div>
+    
+    <div class="cards">
+    <div class="card">
+    <i class="fa fa-gg-circle"></i>
+    <h5 class="sub-title">ALgebra</h5>
+    <p>Supercharge your life hosting with detailed website analytics, marketing tools.</p>
+    </div>
+    <div class="card">
+    <i class="fa fa-line-chart"></i>
+    <h5 class="sub-title">Functions and Equation </h5>
+    <p>We operate one of the most advanced 100 Gbit networks in the world.</p>
+    </div>
+    <div class="card">
+      <i class="fa fa-cubes"></i>
+    <h5 class="sub-title"> Geometry </h5>
+    <p>All datacenters are Tier 4 certified and provide advanced fire.</p>
+    </div>
+    <div class="card">
+    <i class="fa fa-refresh"></i>
+    <h5 class="sub-title"> Vectors </h5>
+    <p>Your ordered product will be automatically and instantly activated.</p>
+    </div>
+    <div class="card">
+    <i class="fa fa-area-chart"></i>
+    <h5 class="sub-title"> Statistics and Probability  </h5>
+    <p>Our cloud platform offersre and network redundancy.</p>
+    </div>
+    <div class="card">
+    <i class="fa fa-rocket"></i>
+    <h5 class="sub-title">Calculus</h5>
+    <p>Our customer care support will be responsive to all the queries.</p>
+    </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  <!--FOOTER-->
+  <footer>
+  <div class="footer">
+  <div class="row">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  </div>
+  
+  <div class="row">
+  <ul>
+  <li><a href="#">Contact us</a></li>
+  <li><a href="#">Our Services</a></li>
+  <li><a href="#">Privacy Policy</a></li>
+  <li><a href="#">Terms &amp; Conditions</a></li>
+  <li><a href="#">Packages</a></li>
+  </ul>
+  </div>
+  
+  
+  <div class="row">
+  Copyright © 2022 All rights reserved
+  </div>
+  </div>
+  </footer>
+  
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+  </script>
+  </body>
+</html>
